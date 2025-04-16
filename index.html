@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Meet Jelle</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f8f8f8;
+      color: #333;
+    }
+
+    header {
+      position: relative;
+      width: 100%;
+    }
+
+    header img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .hero-text {
+      position: absolute;
+      bottom: 2rem;
+      left: 2rem;
+      background: rgba(255, 255, 255, 0.7);
+      padding: 1rem 2rem;
+      border-radius: 1rem;
+      font-size: 2rem;
+      font-weight: bold;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 0;
+      margin-top: -4px;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .section {
+      padding: 3rem 1rem;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    .section h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    .section p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+    }
+
+    @media (max-width: 600px) {
+      .hero-text {
+        font-size: 1.5rem;
+        padding: 0.8rem 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="hero-jelle.jpg" alt="Jelle on couch with paw on pillow" />
+    <div class="hero-text">Meet your new best friend.</div>
+  </header>
+
+  <div class="gallery">
+    <img src="jelle1.jpg" alt="Jelle photo 1" />
+    <img src="jelle2.jpg" alt="Jelle photo 2" />
+    <img src="jelle3.jpg" alt="Jelle photo 3" />
+    <img src="jelle4.jpg" alt="Jelle photo 4" />
+  </div>
+
+  <section class="section">
+    <h2>Jelle's Journey</h2>
+    <p>
+      Jelle has been through a lot, but she’s ready for a loving forever home. She’s sweet, calm, and loves a cozy nap on the couch. Whether it’s a walk in the park or a quiet evening in, Jelle will be right there by your side.
+    </p>
+  </section>
+</body>
+</html>
